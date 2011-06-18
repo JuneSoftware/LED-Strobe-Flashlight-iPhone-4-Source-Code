@@ -1,0 +1,834 @@
+TiStrobe
+v7
+r0
+t303765673.869145
+cCheck dependencies
+cCpResource build/Distribution-iphoneos/iStrobe.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/Info.plist iStrobe-Info.plist
+cCompileXIB /Users/Frahaan/Desktop/iStrobe/FlipsideView.xib
+cCompileXIB /Users/Frahaan/Desktop/iStrobe/MainView.xib
+cCompileXIB /Users/Frahaan/Desktop/iStrobe/MainWindow.xib
+cCopyPNGFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/slider-bg.png Resources/slider-bg.png
+cCopyPNGFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/slider-knob.png Resources/slider-knob.png
+cCopyPNGFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/offbig.png offbig.png
+cCopyPNGFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/onbig.png onbig.png
+cCopyPNGFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/Icon.png Icon.png
+cCopyPNGFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/IconBig.png IconBig.png
+cCpResource build/Distribution-iphoneos/iStrobe.app/switch-5.wav switch-5.wav
+cProcessPCH /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-bqxgfokbcpgaigecktclwwqeyrbf/iStrobe_Prefix.pch.gch iStrobe_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-coccyfmfctvorrdxvyywqsfafswb/iStrobe_Prefix.pch.gch iStrobe_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/main.o /Users/Frahaan/Desktop/iStrobe/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobeAppDelegate.o /Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/MainViewController.o /Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/FlipsideViewController.o /Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/FlashController.o /Users/Frahaan/Desktop/iStrobe/FlashController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/MorseCode.o /Users/Frahaan/Desktop/iStrobe/MorseCode.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/ScreenMain.o /Users/Frahaan/Desktop/iStrobe/ScreenMain.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/main.o /Users/Frahaan/Desktop/iStrobe/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobeAppDelegate.o /Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobe normal armv6
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/MainViewController.o /Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/FlipsideViewController.o /Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/FlashController.o /Users/Frahaan/Desktop/iStrobe/FlashController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/MorseCode.o /Users/Frahaan/Desktop/iStrobe/MorseCode.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/ScreenMain.o /Users/Frahaan/Desktop/iStrobe/ScreenMain.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobe normal armv7
+cCreateUniversalBinary /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/iStrobe normal "armv6 armv7"
+cGenerateDSYMFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app.dSYM /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/iStrobe
+cProcessProductPackaging "/Users/Frahaan/Library/MobileDevice/Provisioning Profiles/ECED56A5-DA3D-4EAC-B6AE-2639E7B976FE.mobileprovision" /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/embedded.mobileprovision
+cTouch /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app
+cProcessProductPackaging /Users/Frahaan/Desktop/iStrobe/Entitlements.plist /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe.xcent
+cCodeSign /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app
+cValidate /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C5B59520000000000000110
+t1281055058
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C5B401F00000000000001E5
+t1281048607
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C0473C400000000001AA470
+t1275360196
+s1746032
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C0473B9000000000000065C
+t1275360185
+s1628
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BFF3B9E000000000037E540
+t1275018142
+s3663168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioFile.h
+c000000004BFF3B70000000000000F0C6
+t1275018096
+s61638
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+c000000004C048216000000000000143E
+t1275363862
+s5182
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004C04821B0000000000080FB0
+t1275363867
+s528304
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/Availability.h
+c000000004BF4D50E0000000000001A3B
+t1274336526
+s6715
+
+N/Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.h
+c000000004C6AD3EC00000000000001C0
+t1282069484
+s448
+i<UIKit/UIKit.h>
+
+N/Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.m
+c000000004C6AD3EC0000000000000443
+t1282069484
+s1091
+i"FlipsideViewController.h"
+
+N/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.h
+c000000004C6ADE7D00000000000005DA
+t1282072189
+s1498
+i"FlipsideViewController.h"
+i"FlashController.h"
+i<iAd/ADBannerView.h>
+i<AudioToolBox/AudioFile.h>
+
+N/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m
+c000000004C6ADF53000000000000177F
+t1282072403
+s6015
+i"MainViewController.h"
+
+N/Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.h
+c000000004C6AD3EC0000000000000173
+t1282069484
+s371
+i<UIKit/UIKit.h>
+
+N/Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.m
+c000000004C6AD3EC00000000000011BF
+t1282069484
+s4543
+i"iStrobeAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/Frahaan/Desktop/iStrobe/Entitlements.plist
+c000000004C3BEC090000000000000192
+t1278995465
+s402
+
+N/Users/Frahaan/Desktop/iStrobe/FlashController.h
+c000000004C6AD3EC0000000000000111
+t1282069484
+s273
+i<AVFoundation/AVFoundation.h>
+
+N/Users/Frahaan/Desktop/iStrobe/FlashController.m
+c000000004C6AD3EC0000000000000521
+t1282069484
+s1313
+i"FlashController.h"
+
+N/Users/Frahaan/Desktop/iStrobe/FlipsideView.xib
+c000000004C6ADFF5000000000001C917
+t1282072565
+s117015
+
+N/Users/Frahaan/Desktop/iStrobe/Icon.png
+c000000004C6A9CFD0000000000001E87
+t1282055421
+s7815
+
+N/Users/Frahaan/Desktop/iStrobe/IconBig.png
+c000000004C6A97FB0000000000017AA6
+t1282054139
+s96934
+
+N/Users/Frahaan/Desktop/iStrobe/MainView.xib
+c000000004C6ADCF400000000000080C8
+t1282071796
+s32968
+
+N/Users/Frahaan/Desktop/iStrobe/MainWindow.xib
+c000000004C3BD60A0000000000005098
+t1278989834
+s20632
+
+N/Users/Frahaan/Desktop/iStrobe/MorseCode.h
+c000000004C6AD3EC00000000000000A1
+t1282069484
+s161
+
+N/Users/Frahaan/Desktop/iStrobe/MorseCode.m
+c000000004C6AD3EC0000000000000471
+t1282069484
+s1137
+i"MorseCode.h"
+
+N/Users/Frahaan/Desktop/iStrobe/Resources/slider-bg.png
+c000000004BBD00100000000000000C56
+t1270677520
+s3158
+
+N/Users/Frahaan/Desktop/iStrobe/Resources/slider-knob.png
+c000000004BBCFEFC00000000000003DB
+t1270677244
+s987
+
+N/Users/Frahaan/Desktop/iStrobe/ScreenMain.h
+c000000004C6AC36C000000000000040F
+t1282065260
+s1039
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/Frahaan/Desktop/iStrobe/ScreenMain.m
+c000000004C6AC4210000000000000A24
+t1282065441
+s2596
+i"ScreenMain.h"
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app
+t1282072873
+s646
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app.dSYM
+t1282072870
+s102
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/FlipsideView.nib
+t1282072866
+s9520
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/Icon.png
+t1282072866
+s8412
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/IconBig.png
+t1282072867
+s100597
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/Info.plist
+t1282072865
+s1200
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/MainView.nib
+t1282072865
+s2594
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/MainWindow.nib
+t1282072866
+s1149
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/PkgInfo
+t1282072865
+s8
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/ResourceRules.plist
+t1282072865
+s485
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/embedded.mobileprovision
+t1282072870
+s7249
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/iStrobe
+t1282072870
+s98344
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/offbig.png
+t1282072866
+s37772
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/onbig.png
+t1282072867
+s46626
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/slider-bg.png
+t1282072866
+s3227
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/slider-knob.png
+t1282072866
+s1145
+
+N/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/switch-5.wav
+t1282072867
+s114760
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/FlashController.o
+t1282072869
+s12532
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/FlipsideViewController.o
+t1282072869
+s40872
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/MainViewController.o
+t1282072869
+s63900
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/MorseCode.o
+t1282072869
+s11076
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/ScreenMain.o
+t1282072869
+s49968
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobe
+t1282072869
+s45268
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobe.LinkFileList
+c000000004C6AE1210000000000000369
+t1282072865
+s873
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobeAppDelegate.o
+t1282072869
+s55704
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/main.o
+t1282072868
+s6420
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/FlashController.o
+t1282072870
+s12520
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/FlipsideViewController.o
+t1282072870
+s40884
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/MainViewController.o
+t1282072870
+s63580
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/MorseCode.o
+t1282072870
+s10884
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/ScreenMain.o
+t1282072870
+s49972
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobe
+t1282072870
+s45096
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobe.LinkFileList
+c000000004C6AE1210000000000000369
+t1282072865
+s873
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobeAppDelegate.o
+t1282072870
+s55660
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/main.o
+t1282072869
+s6400
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe.xcent
+t1282072870
+s486
+
+N/Users/Frahaan/Desktop/iStrobe/iStrobe_Prefix.pch
+c000000004C3BD60A0000000000000140
+t1278989834
+s320
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Frahaan/Desktop/iStrobe/main.m
+c000000004C6AD3EC00000000000000E7
+t1282069484
+s231
+i<UIKit/UIKit.h>
+
+N/Users/Frahaan/Desktop/iStrobe/offbig.png
+c000000004C6A83DF00000000000096AF
+t1282048991
+s38575
+
+N/Users/Frahaan/Desktop/iStrobe/onbig.png
+c000000004C6A83F4000000000000B7FA
+t1282049012
+s47098
+
+N/Users/Frahaan/Desktop/iStrobe/switch-5.wav
+c000000004C6ADD97000000000001C048
+t1282071959
+s114760
+
+N/Users/Frahaan/Library/MobileDevice/Provisioning Profiles/ECED56A5-DA3D-4EAC-B6AE-2639E7B976FE.mobileprovision
+c000000004C6A73670000000000001C51
+t1282044775
+s7249
+
+N/var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-bqxgfokbcpgaigecktclwwqeyrbf/iStrobe_Prefix.pch.gch
+t1282072868
+s9631280
+
+N/var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-coccyfmfctvorrdxvyywqsfafswb/iStrobe_Prefix.pch.gch
+t1282072868
+s10090032
+
+NiStrobe-Info.plist
+c000000004C6A9EDA0000000000000607
+t1282055898
+s1543
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies303765665#303765665#0(0"0(0#1#0"8625684224#0"0#
+
+CCodeSign /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app
+s303765670.854210
+e303765673.511117
+r1
+xCodeSign
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app
+lSLF07#2@48"CodeSign build/Distribution-iphoneos/iStrobe.app303765670#303765673#0(0"0(0#0#70"/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app8627201184#640"    cd /Users/Frahaan/Desktop/iStrobe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Frahaan Hussain (PCY3ETE26U)" --resource-rules=/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/ResourceRules.plist --entitlements /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe.xcent /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/FlashController.o /Users/Frahaan/Desktop/iStrobe/FlashController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s303765669.238343
+e303765669.442430
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/FlashController.o
+x/Users/Frahaan/Desktop/iStrobe/FlashController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/Frahaan/Desktop/iStrobe/FlashController.m303765669#303765669#0(0"0(0#0#48"/Users/Frahaan/Desktop/iStrobe/FlashController.m8627964320#1762"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv6 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-bqxgfokbcpgaigecktclwwqeyrbf/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/FlashController.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/FlashController.o0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/FlipsideViewController.o /Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s303765669.133218
+e303765669.238224
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/FlipsideViewController.o
+x/Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.m303765669#303765669#0(0"0(0#0#63"/Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.m8604368448#1784"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv6 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-bqxgfokbcpgaigecktclwwqeyrbf/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/FlipsideViewController.o0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/MainViewController.o /Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s303765668.932426
+e303765669.455769
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/MainViewController.o
+x/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m: In function '-[MainViewController powerButtonPressed:]':
+o/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m:82: warning: unused variable 'url'
+o/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m:85: warning: implicit declaration of function 'AudioServicesCreateSystemSoundID'
+o/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m:86: warning: implicit declaration of function 'AudioServicesPlaySystemSound'
+lSLF07#2@67"Compile /Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m303765668#303765669#0(491"/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m: In function '-[MainViewController powerButtonPressed:]':/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m:82: warning: unused variable 'url'/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m:85: warning: implicit declaration of function 'AudioServicesCreateSystemSoundID'/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m:86: warning: implicit declaration of function 'AudioServicesPlaySystemSound'3(22@21"Unused variable 'url'303765669#118#95#0(6@59"/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m303765203#82#0#82#0#19"unused variable '*'0(22@67"Implicit declaration of function 'AudioServicesCreateSystemSoundID'303765669#213#141#0(6@59"/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m303765203#85#0#85#0#36"implicit declaration of function '*'0(22@63"Implicit declaration of function 'AudioServicesPlaySystemSound'303765669#354#137#0(6@59"/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m303765203#86#0#86#0#36"implicit declaration of function '*'0(0#0#59"/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m8623619104#1776"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv6 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-bqxgfokbcpgaigecktclwwqeyrbf/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/MorseCode.o /Users/Frahaan/Desktop/iStrobe/MorseCode.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s303765669.442543
+e303765669.561832
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/MorseCode.o
+x/Users/Frahaan/Desktop/iStrobe/MorseCode.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/Frahaan/Desktop/iStrobe/MorseCode.m303765669#303765669#0(0"0(0#0#42"/Users/Frahaan/Desktop/iStrobe/MorseCode.m8625226272#1750"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv6 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-bqxgfokbcpgaigecktclwwqeyrbf/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/MorseCode.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/MorseCode.o0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/ScreenMain.o /Users/Frahaan/Desktop/iStrobe/ScreenMain.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s303765669.455882
+e303765669.767298
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/ScreenMain.o
+x/Users/Frahaan/Desktop/iStrobe/ScreenMain.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/Frahaan/Desktop/iStrobe/ScreenMain.m303765669#303765669#0(0"0(0#0#43"/Users/Frahaan/Desktop/iStrobe/ScreenMain.m8624790464#1752"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv6 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-bqxgfokbcpgaigecktclwwqeyrbf/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/ScreenMain.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/ScreenMain.o0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobeAppDelegate.o /Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s303765668.820316
+e303765669.133106
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobeAppDelegate.o
+x/Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.m303765668#303765669#0(0"0(0#0#59"/Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.m8624709952#1776"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv6 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-bqxgfokbcpgaigecktclwwqeyrbf/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobeAppDelegate.o0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/main.o /Users/Frahaan/Desktop/iStrobe/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s303765668.819052
+e303765668.932308
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/main.o
+x/Users/Frahaan/Desktop/iStrobe/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/Frahaan/Desktop/iStrobe/main.m303765668#303765668#0(0"0(0#0#37"/Users/Frahaan/Desktop/iStrobe/main.m8625159168#1740"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv6 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-bqxgfokbcpgaigecktclwwqeyrbf/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/main.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/FlashController.o /Users/Frahaan/Desktop/iStrobe/FlashController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s303765670.197500
+e303765670.411986
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/FlashController.o
+x/Users/Frahaan/Desktop/iStrobe/FlashController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/Frahaan/Desktop/iStrobe/FlashController.m303765670#303765670#0(0"0(0#0#48"/Users/Frahaan/Desktop/iStrobe/FlashController.m8628681856#1762"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv7 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-coccyfmfctvorrdxvyywqsfafswb/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/FlashController.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/FlashController.o0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/FlipsideViewController.o /Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s303765670.011611
+e303765670.197388
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/FlipsideViewController.o
+x/Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.m303765670#303765670#0(0"0(0#0#63"/Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.m8627297920#1784"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv7 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-coccyfmfctvorrdxvyywqsfafswb/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/Classes/FlipsideViewController.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/FlipsideViewController.o0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/MainViewController.o /Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s303765669.817197
+e303765670.419046
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/MainViewController.o
+x/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m: In function '-[MainViewController powerButtonPressed:]':
+o/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m:82: warning: unused variable 'url'
+o/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m:85: warning: implicit declaration of function 'AudioServicesCreateSystemSoundID'
+o/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m:86: warning: implicit declaration of function 'AudioServicesPlaySystemSound'
+lSLF07#2@67"Compile /Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m303765669#303765670#0(491"/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m: In function '-[MainViewController powerButtonPressed:]':/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m:82: warning: unused variable 'url'/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m:85: warning: implicit declaration of function 'AudioServicesCreateSystemSoundID'/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m:86: warning: implicit declaration of function 'AudioServicesPlaySystemSound'3(22@21"Unused variable 'url'303765669#118#95#0(6@59"/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m303765203#82#0#82#0#19"unused variable '*'0(22@67"Implicit declaration of function 'AudioServicesCreateSystemSoundID'303765669#213#141#0(6@59"/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m303765203#85#0#85#0#36"implicit declaration of function '*'0(22@63"Implicit declaration of function 'AudioServicesPlaySystemSound'303765669#354#137#0(6@59"/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m303765203#86#0#86#0#36"implicit declaration of function '*'0(0#0#59"/Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m8621322304#1776"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv7 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-coccyfmfctvorrdxvyywqsfafswb/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/Classes/MainViewController.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/MainViewController.o0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/MorseCode.o /Users/Frahaan/Desktop/iStrobe/MorseCode.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s303765670.412188
+e303765670.532500
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/MorseCode.o
+x/Users/Frahaan/Desktop/iStrobe/MorseCode.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/Frahaan/Desktop/iStrobe/MorseCode.m303765670#303765670#0(0"0(0#0#42"/Users/Frahaan/Desktop/iStrobe/MorseCode.m8624007520#1750"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv7 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-coccyfmfctvorrdxvyywqsfafswb/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/MorseCode.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/MorseCode.o0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/ScreenMain.o /Users/Frahaan/Desktop/iStrobe/ScreenMain.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s303765670.419160
+e303765670.641108
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/ScreenMain.o
+x/Users/Frahaan/Desktop/iStrobe/ScreenMain.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/Frahaan/Desktop/iStrobe/ScreenMain.m303765670#303765670#0(0"0(0#0#43"/Users/Frahaan/Desktop/iStrobe/ScreenMain.m8606267360#1752"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv7 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-coccyfmfctvorrdxvyywqsfafswb/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/ScreenMain.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/ScreenMain.o0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobeAppDelegate.o /Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s303765669.667628
+e303765670.011496
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobeAppDelegate.o
+x/Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.m303765669#303765670#0(0"0(0#0#59"/Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.m8625497856#1776"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv7 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-coccyfmfctvorrdxvyywqsfafswb/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/Classes/iStrobeAppDelegate.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobeAppDelegate.o0#
+
+CCompileC build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/main.o /Users/Frahaan/Desktop/iStrobe/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s303765669.561950
+e303765669.667515
+r1
+xCompileC
+xbuild/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/main.o
+x/Users/Frahaan/Desktop/iStrobe/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/Frahaan/Desktop/iStrobe/main.m303765669#303765669#0(0"0(0#0#37"/Users/Frahaan/Desktop/iStrobe/main.m8624165600#1740"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv7 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-coccyfmfctvorrdxvyywqsfafswb/iStrobe_Prefix.pch -c /Users/Frahaan/Desktop/iStrobe/main.m -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/Frahaan/Desktop/iStrobe/FlipsideView.xib
+s303765665.103203
+e303765666.120414
+r1
+xCompileXIB
+x/Users/Frahaan/Desktop/iStrobe/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib303765665#303765666#0(0"0(0#0#47"/Users/Frahaan/Desktop/iStrobe/FlipsideView.xib8625137056#529"    cd /Users/Frahaan/Desktop/iStrobe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/FlipsideView.nib /Users/Frahaan/Desktop/iStrobe/FlipsideView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/Frahaan/Desktop/iStrobe/MainView.xib
+s303765665.104019
+e303765665.929411
+r1
+xCompileXIB
+x/Users/Frahaan/Desktop/iStrobe/MainView.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/Frahaan/Desktop/iStrobe/MainView.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Flashlight' but 'Flashlight' is not a kind of 'UIView' as specified by the outlet type.
+lSLF07#2@23"CompileXIB MainView.xib303765665#303765665#0(239"/* com.apple.ibtool.document.warnings *//Users/Frahaan/Desktop/iStrobe/MainView.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Flashlight' but 'Flashlight' is not a kind of 'UIView' as specified by the outlet type.1(22@140"The 'view' outlet of 'File's Owner' is connected to 'Flashlight' but 'Flashlight' is not a kind of 'UIView' as specified by the outlet type.303765665#18446744073709551615#0#0(6@43"/Users/Frahaan/Desktop/iStrobe/MainView.xib303764596#18446744073709551615#0#18446744073709551615#0#0"0(0#0#43"/Users/Frahaan/Desktop/iStrobe/MainView.xib8624883328#521"    cd /Users/Frahaan/Desktop/iStrobe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/MainView.nib /Users/Frahaan/Desktop/iStrobe/MainView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/Frahaan/Desktop/iStrobe/MainWindow.xib
+s303765665.929524
+e303765666.491421
+r1
+xCompileXIB
+x/Users/Frahaan/Desktop/iStrobe/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib303765665#303765666#0(0"0(0#0#45"/Users/Frahaan/Desktop/iStrobe/MainWindow.xib8627521056#525"    cd /Users/Frahaan/Desktop/iStrobe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/MainWindow.nib /Users/Frahaan/Desktop/iStrobe/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/Icon.png Icon.png
+s303765666.740268
+e303765666.777184
+r1
+xCopyPNGFile
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/Icon.png
+xIcon.png
+lSLF07#2@69"CopyPNGFile build/Distribution-iphoneos/iStrobe.app/Icon.png Icon.png303765666#303765666#0(0"0(0#0#39"/Users/Frahaan/Desktop/iStrobe/Icon.png8624052512#539"    cd /Users/Frahaan/Desktop/iStrobe    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Frahaan/Desktop/iStrobe/Icon.png /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/Icon.png0#
+
+CCopyPNGFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/IconBig.png IconBig.png
+s303765666.777293
+e303765667.519724
+r1
+xCopyPNGFile
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/IconBig.png
+xIconBig.png
+lSLF07#2@75"CopyPNGFile build/Distribution-iphoneos/iStrobe.app/IconBig.png IconBig.png303765666#303765667#0(0"0(0#0#42"/Users/Frahaan/Desktop/iStrobe/IconBig.png8623585152#545"    cd /Users/Frahaan/Desktop/iStrobe    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Frahaan/Desktop/iStrobe/IconBig.png /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/IconBig.png0#
+
+CCopyPNGFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/offbig.png offbig.png
+s303765666.256147
+e303765666.740033
+r1
+xCopyPNGFile
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/offbig.png
+xoffbig.png
+lSLF07#2@73"CopyPNGFile build/Distribution-iphoneos/iStrobe.app/offbig.png offbig.png303765666#303765666#0(0"0(0#0#41"/Users/Frahaan/Desktop/iStrobe/offbig.png8625100320#543"    cd /Users/Frahaan/Desktop/iStrobe    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Frahaan/Desktop/iStrobe/offbig.png /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/offbig.png0#
+
+CCopyPNGFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/onbig.png onbig.png
+s303765666.491536
+e303765667.002778
+r1
+xCopyPNGFile
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/onbig.png
+xonbig.png
+lSLF07#2@71"CopyPNGFile build/Distribution-iphoneos/iStrobe.app/onbig.png onbig.png303765666#303765667#0(0"0(0#0#40"/Users/Frahaan/Desktop/iStrobe/onbig.png8621246304#541"    cd /Users/Frahaan/Desktop/iStrobe    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Frahaan/Desktop/iStrobe/onbig.png /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/onbig.png0#
+
+CCopyPNGFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/slider-bg.png Resources/slider-bg.png
+s303765666.120660
+e303765666.221555
+r1
+xCopyPNGFile
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/slider-bg.png
+xResources/slider-bg.png
+lSLF07#2@89"CopyPNGFile build/Distribution-iphoneos/iStrobe.app/slider-bg.png Resources/slider-bg.png303765666#303765666#0(0"0(0#0#54"/Users/Frahaan/Desktop/iStrobe/Resources/slider-bg.png8626608064#559"    cd /Users/Frahaan/Desktop/iStrobe    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Frahaan/Desktop/iStrobe/Resources/slider-bg.png /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/slider-bg.png0#
+
+CCopyPNGFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/slider-knob.png Resources/slider-knob.png
+s303765666.221666
+e303765666.256041
+r1
+xCopyPNGFile
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/slider-knob.png
+xResources/slider-knob.png
+lSLF07#2@93"CopyPNGFile build/Distribution-iphoneos/iStrobe.app/slider-knob.png Resources/slider-knob.png303765666#303765666#0(0"0(0#0#56"/Users/Frahaan/Desktop/iStrobe/Resources/slider-knob.png8625459424#563"    cd /Users/Frahaan/Desktop/iStrobe    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Frahaan/Desktop/iStrobe/Resources/slider-knob.png /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/slider-knob.png0#
+
+CCpResource build/Distribution-iphoneos/iStrobe.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s303765665.069347
+e303765665.103100
+r1
+xCpResource
+xbuild/Distribution-iphoneos/iStrobe.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist303765665#303765665#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8621996768#492"    cd /Users/Frahaan/Desktop/iStrobe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app0#
+
+CCpResource build/Distribution-iphoneos/iStrobe.app/switch-5.wav switch-5.wav
+s303765667.002888
+e303765667.008835
+r1
+xCpResource
+xbuild/Distribution-iphoneos/iStrobe.app/switch-5.wav
+xswitch-5.wav
+lSLF07#2@17"Copy switch-5.wav303765667#303765667#0(0"0(0#0#43"/Users/Frahaan/Desktop/iStrobe/switch-5.wav8622038880#446"    cd /Users/Frahaan/Desktop/iStrobe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Frahaan/Desktop/iStrobe/switch-5.wav /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app0#
+
+CCreateUniversalBinary /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/iStrobe normal "armv6 armv7"
+s303765670.680720
+e303765670.684793
+r1
+xCreateUniversalBinary
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/iStrobe
+xnormal
+xarmv6 armv7
+lSLF07#2@90"CreateUniversalBinary build/Distribution-iphoneos/iStrobe.app/iStrobe normal "armv6 armv7"303765670#303765670#0(0"0(0#0#42"/Users/Frahaan/Desktop/iStrobe/armv6 armv78626421504#507"    cd /Users/Frahaan/Desktop/iStrobe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobe /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobe -output /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/iStrobe0#
+
+CGenerateDSYMFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app.dSYM /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/iStrobe
+s303765670.684955
+e303765670.820275
+r1
+xGenerateDSYMFile
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app.dSYM
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/iStrobe
+lSLF07#2@109"GenerateDSYMFile build/Distribution-iphoneos/iStrobe.app.dSYM build/Distribution-iphoneos/iStrobe.app/iStrobe303765670#303765670#0(0"0(0#0#78"/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/iStrobe8624857472#352"    cd /Users/Frahaan/Desktop/iStrobe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/iStrobe -o /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app.dSYM0#
+
+CLd /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobe normal armv6
+s303765669.767403
+e303765669.817075
+r1
+xLd
+x/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobe
+xnormal
+xarmv6
+lSLF07#2@120"Link /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobe303765669#303765669#0(0"0(0#0#0"8606363040#910"    cd /Users/Frahaan/Desktop/iStrobe    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -filelist /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobe.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework iAd -framework AudioToolbox -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv6/iStrobe0#
+
+CLd /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobe normal armv7
+s303765670.641224
+e303765670.680589
+r1
+xLd
+x/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobe
+xnormal
+xarmv7
+lSLF07#2@120"Link /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobe303765670#303765670#0(0"0(0#0#0"8627864384#910"    cd /Users/Frahaan/Desktop/iStrobe    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -filelist /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobe.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework iAd -framework AudioToolbox -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/Objects-normal/armv7/iStrobe0#
+
+CProcessInfoPlistFile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/Info.plist iStrobe-Info.plist
+s303765665.070476
+e303765665.076167
+r1
+xProcessInfoPlistFile
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/Info.plist
+xiStrobe-Info.plist
+lSLF07#2@26"Process iStrobe-Info.plist303765665#303765665#0(0"0(0#0#49"/Users/Frahaan/Desktop/iStrobe/iStrobe-Info.plist8604276640#551"    cd /Users/Frahaan/Desktop/iStrobe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iStrobe-Info.plist -genpkginfo /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/ResourceRules.plist -o /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/Info.plist0#
+
+CProcessPCH /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-bqxgfokbcpgaigecktclwwqeyrbf/iStrobe_Prefix.pch.gch iStrobe_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s303765667.519866
+e303765668.710876
+r1
+xProcessPCH
+x/var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-bqxgfokbcpgaigecktclwwqeyrbf/iStrobe_Prefix.pch.gch
+xiStrobe_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile iStrobe_Prefix.pch303765667#303765668#0(0"0(0#0#49"/Users/Frahaan/Desktop/iStrobe/iStrobe_Prefix.pch8615064128#1639"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv6 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/Frahaan/Desktop/iStrobe/iStrobe_Prefix.pch -o /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-bqxgfokbcpgaigecktclwwqeyrbf/iStrobe_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-coccyfmfctvorrdxvyywqsfafswb/iStrobe_Prefix.pch.gch iStrobe_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s303765667.521113
+e303765668.818933
+r1
+xProcessPCH
+x/var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-coccyfmfctvorrdxvyywqsfafswb/iStrobe_Prefix.pch.gch
+xiStrobe_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile iStrobe_Prefix.pch303765667#303765668#0(0"0(0#0#49"/Users/Frahaan/Desktop/iStrobe/iStrobe_Prefix.pch8608550240#1639"    cd /Users/Frahaan/Desktop/iStrobe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-generated-files.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-own-target-headers.hmap -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-all-target-headers.hmap -iquote /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe-project-headers.hmap -F/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos -I/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/include -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources/armv7 -I/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/Frahaan/Desktop/iStrobe/iStrobe_Prefix.pch -o /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-coccyfmfctvorrdxvyywqsfafswb/iStrobe_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/Frahaan/Library/MobileDevice/Provisioning Profiles/ECED56A5-DA3D-4EAC-B6AE-2639E7B976FE.mobileprovision" /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/embedded.mobileprovision
+s303765670.820393
+e303765670.822222
+r1
+xProcessProductPackaging
+x/Users/Frahaan/Library/MobileDevice/Provisioning Profiles/ECED56A5-DA3D-4EAC-B6AE-2639E7B976FE.mobileprovision
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/Frahaan/Library/MobileDevice/Provisioning Profiles/ECED56A5-DA3D-4EAC-B6AE-2639E7B976FE.mobileprovision" build/Distribution-iphoneos/iStrobe.app/embedded.mobileprovision303765670#303765670#0(0"0(0#0#95"/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/embedded.mobileprovision8623732224#416"    cd /Users/Frahaan/Desktop/iStrobe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Frahaan/Library/MobileDevice/Provisioning Profiles/ECED56A5-DA3D-4EAC-B6AE-2639E7B976FE.mobileprovision" -o /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Users/Frahaan/Desktop/iStrobe/Entitlements.plist /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe.xcent
+s303765670.826697
+e303765670.854114
+r1
+xProcessProductPackaging
+x/Users/Frahaan/Desktop/iStrobe/Entitlements.plist
+x/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe.xcent
+lSLF07#2@112"ProcessProductPackaging Entitlements.plist build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe.xcent303765670#303765670#0(0"0(0#0#100"/Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe.xcent8621632128#384"    cd /Users/Frahaan/Desktop/iStrobe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Users/Frahaan/Desktop/iStrobe/Entitlements.plist -entitlements -format xml -o /Users/Frahaan/Desktop/iStrobe/build/iStrobe.build/Distribution-iphoneos/iStrobe.build/iStrobe.xcent0#
+
+CTouch /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app
+s303765670.822343
+e303765670.826587
+r1
+xTouch
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app
+lSLF07#2@76"Touch /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app303765670#303765670#0(0"0(0#0#0"8622051488#255"    cd /Users/Frahaan/Desktop/iStrobe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app0#
+
+CValidate /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app
+s303765673.511392
+e303765673.869088
+r1
+xValidate
+x/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app
+lSLF07#2@48"Validate build/Distribution-iphoneos/iStrobe.app303765673#303765673#0(0"0(0#0#70"/Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app8622555296#364"    cd /Users/Frahaan/Desktop/iStrobe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/Frahaan/Desktop/iStrobe/build/Distribution-iphoneos/iStrobe.app0#
+

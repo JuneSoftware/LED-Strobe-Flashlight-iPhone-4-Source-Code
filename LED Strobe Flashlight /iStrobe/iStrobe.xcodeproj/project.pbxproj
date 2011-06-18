@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0121A49911FCF33300C54118 /* FlashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0121A49811FCF33300C54118 /* FlashController.m */; };
+		01798F6712013E7000FD6D32 /* MorseCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 01798F6612013E7000FD6D32 /* MorseCode.m */; };
+		01C439B811EC0FE000960A53 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C439B711EC0FE000960A53 /* AVFoundation.framework */; };
+		01C43A7311EC2F7500960A53 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C43A7211EC2F7500960A53 /* iAd.framework */; };
+		01D6A36911EED3850040241A /* slider-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D6A36711EED3850040241A /* slider-bg.png */; };
+		01D6A36A11EED3850040241A /* slider-knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D6A36811EED3850040241A /* slider-knob.png */; };
+		1D3623260D0F684500981E51 /* iStrobeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iStrobeAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* FlipsideView.xib */; };
+		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
+		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
+		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
+		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
+		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
+		E778F1AC121AFAB60049E934 /* ScreenMain.m in Sources */ = {isa = PBXBuildFile; fileRef = E778F1AA121AFAB60049E934 /* ScreenMain.m */; };
+		E778F1DF121B15910049E934 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E778F1DE121B15910049E934 /* AudioToolbox.framework */; };
+		E778F1E3121B15EC0049E934 /* switch-5.wav in Resources */ = {isa = PBXBuildFile; fileRef = E778F1E2121B15EC0049E934 /* switch-5.wav */; };
+		E7A8578C123742A300CCED26 /* offbig.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A8578A123742A300CCED26 /* offbig.png */; };
+		E7A8578D123742A300CCED26 /* onbig.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A8578B123742A300CCED26 /* onbig.png */; };
+		E7D62B6A1372D29600480F55 /* Icon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = E7D62B691372D29600480F55 /* Icon114x114.png */; };
+		E7D62B6C1372D2CF00480F55 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E7D62B6B1372D2CF00480F55 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0121A49711FCF33300C54118 /* FlashController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashController.h; sourceTree = "<group>"; };
+		0121A49811FCF33300C54118 /* FlashController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashController.m; sourceTree = "<group>"; };
+		01798F6512013E7000FD6D32 /* MorseCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseCode.h; sourceTree = "<group>"; };
+		01798F6612013E7000FD6D32 /* MorseCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseCode.m; sourceTree = "<group>"; };
+		01C439B711EC0FE000960A53 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		01C43A3611EC238700960A53 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		01C43A7211EC2F7500960A53 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		01C4CE1211EC3B98007F8A1B /* Ad Hoc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ad Hoc-Info.plist"; sourceTree = "<group>"; };
+		01D6A36711EED3850040241A /* slider-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slider-bg.png"; path = "Resources/slider-bg.png"; sourceTree = "<group>"; };
+		01D6A36811EED3850040241A /* slider-knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slider-knob.png"; path = "Resources/slider-knob.png"; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iStrobeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iStrobeAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iStrobeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iStrobeAppDelegate.m; sourceTree = "<group>"; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		280E754A0DD40C5E005A515E /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
+		289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideViewController.h; path = Classes/FlipsideViewController.h; sourceTree = "<group>"; };
+		289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideViewController.m; path = Classes/FlipsideViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iStrobe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iStrobe_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iStrobe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iStrobe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E74142AF121B2BD300CEE124 /* iStrobe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iStrobe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E778F1AA121AFAB60049E934 /* ScreenMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenMain.m; sourceTree = "<group>"; };
+		E778F1AB121AFAB60049E934 /* ScreenMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenMain.h; sourceTree = "<group>"; };
+		E778F1DE121B15910049E934 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E778F1E2121B15EC0049E934 /* switch-5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "switch-5.wav"; sourceTree = "<group>"; };
+		E7A8578A123742A300CCED26 /* offbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offbig.png; sourceTree = "<group>"; };
+		E7A8578B123742A300CCED26 /* onbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onbig.png; sourceTree = "<group>"; };
+		E7D62B691372D29600480F55 /* Icon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon114x114.png; sourceTree = "<group>"; };
+		E7D62B6B1372D2CF00480F55 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
+				01C439B811EC0FE000960A53 /* AVFoundation.framework in Frameworks */,
+				01C43A7311EC2F7500960A53 /* iAd.framework in Frameworks */,
+				E778F1DF121B15910049E934 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0121A49511FCF2B200C54118 /* Flash Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0121A49711FCF33300C54118 /* FlashController.h */,
+				0121A49811FCF33300C54118 /* FlashController.m */,
+			);
+			name = "Flash Controller";
+			sourceTree = "<group>";
+		};
+		01798F6412013E3F00FD6D32 /* Morse Code */ = {
+			isa = PBXGroup;
+			children = (
+				01798F6512013E7000FD6D32 /* MorseCode.h */,
+				01798F6612013E7000FD6D32 /* MorseCode.m */,
+			);
+			name = "Morse Code";
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* iStrobeAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iStrobeAppDelegate.m */,
+			);
+			name = "Application Delegate";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E74142AF121B2BD300CEE124 /* iStrobe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281C6CD70DB2D82200F60ACC /* Flipside View */ = {
+			isa = PBXGroup;
+			children = (
+				289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */,
+				289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */,
+			);
+			name = "Flipside View";
+			sourceTree = "<group>";
+		};
+		289233A00DB2D0730083E9F9 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				289233A80DB2D0DB0083E9F9 /* MainViewController.h */,
+				289233A90DB2D0DB0083E9F9 /* MainViewController.m */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				01798F6412013E3F00FD6D32 /* Morse Code */,
+				0121A49511FCF2B200C54118 /* Flash Controller */,
+				289233A00DB2D0730083E9F9 /* Main View */,
+				281C6CD70DB2D82200F60ACC /* Flipside View */,
+				080E96DDFE201D6D7F000001 /* Application Delegate */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				01C43A3611EC238700960A53 /* Entitlements.plist */,
+				01C4CE1211EC3B98007F8A1B /* Ad Hoc-Info.plist */,
+				E778F1AB121AFAB60049E934 /* ScreenMain.h */,
+				E778F1AA121AFAB60049E934 /* ScreenMain.m */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iStrobe_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7D62B6B1372D2CF00480F55 /* Icon.png */,
+				E7D62B691372D29600480F55 /* Icon114x114.png */,
+				E7A8578A123742A300CCED26 /* offbig.png */,
+				E7A8578B123742A300CCED26 /* onbig.png */,
+				E778F1E2121B15EC0049E934 /* switch-5.wav */,
+				01D6A36711EED3850040241A /* slider-bg.png */,
+				01D6A36811EED3850040241A /* slider-knob.png */,
+				280E754A0DD40C5E005A515E /* FlipsideView.xib */,
+				280E754B0DD40C5E005A515E /* MainView.xib */,
+				280E754C0DD40C5E005A515E /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iStrobe-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765580DF743DE002DB57D /* CoreGraphics.framework */,
+				01C439B711EC0FE000960A53 /* AVFoundation.framework */,
+				01C43A7211EC2F7500960A53 /* iAd.framework */,
+				E778F1DE121B15910049E934 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iStrobe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iStrobe" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iStrobe;
+			productName = iStrobe;
+			productReference = E74142AF121B2BD300CEE124 /* iStrobe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iStrobe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iStrobe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */,
+				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
+				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
+				01D6A36911EED3850040241A /* slider-bg.png in Resources */,
+				01D6A36A11EED3850040241A /* slider-knob.png in Resources */,
+				E778F1E3121B15EC0049E934 /* switch-5.wav in Resources */,
+				E7A8578C123742A300CCED26 /* offbig.png in Resources */,
+				E7A8578D123742A300CCED26 /* onbig.png in Resources */,
+				E7D62B6A1372D29600480F55 /* Icon114x114.png in Resources */,
+				E7D62B6C1372D2CF00480F55 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iStrobeAppDelegate.m in Sources */,
+				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
+				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
+				0121A49911FCF33300C54118 /* FlashController.m in Sources */,
+				01798F6712013E7000FD6D32 /* MorseCode.m in Sources */,
+				E778F1AC121AFAB60049E934 /* ScreenMain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Desktop/iStrobe/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Frahaan Hussain";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iStrobe_Prefix.pch;
+				INFOPLIST_FILE = "iStrobe-Info.plist";
+				PRODUCT_NAME = iStrobe;
+				PROVISIONING_PROFILE = "7D64A3FD-E12E-4E8B-8CAD-1279B48D296C";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Desktop/iStrobe/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Frahaan Hussain";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iStrobe_Prefix.pch;
+				INFOPLIST_FILE = "iStrobe-Info.plist";
+				PRODUCT_NAME = iStrobe;
+				PROVISIONING_PROFILE = "7D64A3FD-E12E-4E8B-8CAD-1279B48D296C";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Frahaan Hussain (PCY3ETE26U)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "25D0EC5A-8B4F-44F2-805E-194A4A4DE212";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E778F1FA121B17D50049E934 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Frahaan Hussain";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "7D64A3FD-E12E-4E8B-8CAD-1279B48D296C";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		E778F1FB121B17D50049E934 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Desktop/iStrobe/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Frahaan Hussain";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iStrobe_Prefix.pch;
+				INFOPLIST_FILE = "iStrobe-Info.plist";
+				PRODUCT_NAME = iStrobe;
+				PROVISIONING_PROFILE = "7D64A3FD-E12E-4E8B-8CAD-1279B48D296C";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iStrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				E778F1FB121B17D50049E934 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iStrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				E778F1FA121B17D50049E934 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,533 @@
+TiStrobe
+v7
+r0
+t303491931.419141
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/Info.plist" iStrobe-Info.plist
+cCompileXIB "/Users/Frahaan/Desktop/iStrobe 2/FlipsideView.xib"
+cCompileXIB "/Users/Frahaan/Desktop/iStrobe 2/MainView.xib"
+cCompileXIB "/Users/Frahaan/Desktop/iStrobe 2/MainWindow.xib"
+cCpResource build/Debug-iphonesimulator/iStrobe.app/Icon@2x.png Resources/Icon@2x.png
+cCpResource build/Debug-iphonesimulator/iStrobe.app/aboutbackground.png Resources/aboutbackground.png
+cCpResource build/Debug-iphonesimulator/iStrobe.app/Icon.png Resources/Icon.png
+cCpResource build/Debug-iphonesimulator/iStrobe.app/powerbuttonoff.png Resources/powerbuttonoff.png
+cCpResource build/Debug-iphonesimulator/iStrobe.app/powerbuttonon.png Resources/powerbuttonon.png
+cCpResource build/Debug-iphonesimulator/iStrobe.app/slider-bg.png Resources/slider-bg.png
+cCpResource build/Debug-iphonesimulator/iStrobe.app/slider-knob.png Resources/slider-knob.png
+cProcessPCH /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-fnjfhkglisxkusdtxxpwkbjrgudi/iStrobe_Prefix.pch.gch iStrobe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/main.o "/Users/Frahaan/Desktop/iStrobe 2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/iStrobeAppDelegate.o "/Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/MainViewController.o "/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/FlipsideViewController.o "/Users/Frahaan/Desktop/iStrobe 2/Classes/FlipsideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/FlashController.o "/Users/Frahaan/Desktop/iStrobe 2/FlashController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/MorseCode.o "/Users/Frahaan/Desktop/iStrobe 2/MorseCode.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C64047D0000000000000132
+t1281623165
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C01F5AE00000000000C05A0
+t1275196846
+s787872
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C01F5AA000000000000065C
+t1275196842
+s1628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+c000000004C0473C8000000000000143E
+t1275360200
+s5182
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004C0473CB000000000004A930
+t1275360203
+s305456
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Users/Frahaan/Desktop/iStrobe 2/Classes/FlipsideViewController.h
+c000000004C639E8700000000000003E2
+t1281597063
+s994
+i<UIKit/UIKit.h>
+
+N/Users/Frahaan/Desktop/iStrobe 2/Classes/FlipsideViewController.m
+c000000004C639E890000000000000665
+t1281597065
+s1637
+i"FlipsideViewController.h"
+
+N/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h
+c000000004C639E8100000000000007D5
+t1281597057
+s2005
+i"FlipsideViewController.h"
+i"FlashController.h"
+i<iAd/ADBannerView.h>
+
+N/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m
+c000000004C639E84000000000000182D
+t1281597060
+s6189
+i"MainViewController.h"
+
+N/Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.h
+c000000004C639E8B0000000000000391
+t1281597067
+s913
+i<UIKit/UIKit.h>
+
+N/Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m
+c000000004C639E8E00000000000013ED
+t1281597070
+s5101
+i"iStrobeAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/Frahaan/Desktop/iStrobe 2/FlashController.h
+c000000004C639E7B000000000000032C
+t1281597051
+s812
+i<AVFoundation/AVFoundation.h>
+
+N/Users/Frahaan/Desktop/iStrobe 2/FlashController.m
+c000000004C63A632000000000000073C
+t1281599026
+s1852
+i"FlashController.h"
+
+N/Users/Frahaan/Desktop/iStrobe 2/FlipsideView.xib
+c000000004C561FDC0000000000007549
+t1280712668
+s30025
+
+N/Users/Frahaan/Desktop/iStrobe 2/MainView.xib
+c000000004C66B0400000000000008907
+t1281798208
+s35079
+
+N/Users/Frahaan/Desktop/iStrobe 2/MainWindow.xib
+c000000004C3BD60A0000000000005098
+t1278989834
+s20632
+
+N/Users/Frahaan/Desktop/iStrobe 2/MorseCode.h
+c000000004C639E7800000000000002B7
+t1281597048
+s695
+
+N/Users/Frahaan/Desktop/iStrobe 2/MorseCode.m
+c000000004C639E750000000000000686
+t1281597045
+s1670
+i"MorseCode.h"
+
+N/Users/Frahaan/Desktop/iStrobe 2/Resources/Icon.png
+c000000004C3BF5F600000000000022ED
+t1278998006
+s8941
+
+N/Users/Frahaan/Desktop/iStrobe 2/Resources/Icon@2x.png
+c000000004C3BEEB90000000000005277
+t1278996153
+s21111
+
+N/Users/Frahaan/Desktop/iStrobe 2/Resources/aboutbackground.png
+c000000004C3BE79B0000000000064529
+t1278994331
+s410921
+
+N/Users/Frahaan/Desktop/iStrobe 2/Resources/powerbuttonoff.png
+c000000004C3D3964000000000000585F
+t1279080804
+s22623
+
+N/Users/Frahaan/Desktop/iStrobe 2/Resources/powerbuttonon.png
+c000000004C3D396E0000000000007D93
+t1279080814
+s32147
+
+N/Users/Frahaan/Desktop/iStrobe 2/Resources/slider-bg.png
+c000000004BBD00100000000000000C56
+t1270677520
+s3158
+
+N/Users/Frahaan/Desktop/iStrobe 2/Resources/slider-knob.png
+c000000004BBCFEFC00000000000003DB
+t1270677244
+s987
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app
+t2
+s0
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app.dSYM
+t2
+s0
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/FlipsideView.nib
+t1281799127
+s2753
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/Icon.png
+t1281799127
+s8941
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/Icon@2x.png
+t1281799127
+s21111
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/Info.plist
+t1281799125
+s815
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/MainView.nib
+t1281799127
+s2977
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/MainWindow.nib
+t1281799128
+s1149
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/PkgInfo
+t1281799125
+s8
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/aboutbackground.png
+t1281799127
+s410921
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/iStrobe
+t2
+s0
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/powerbuttonoff.png
+t1281799127
+s22623
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/powerbuttonon.png
+t1281799127
+s32147
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/slider-bg.png
+t1281799127
+s3158
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/slider-knob.png
+t1281799127
+s987
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/FlashController.o
+t2
+s0
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/FlipsideViewController.o
+t1281799131
+s41796
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/MorseCode.o
+t1281799131
+s11788
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/iStrobe.LinkFileList
+c000000004C66B3D500000000000002F6
+t1281799125
+s758
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/iStrobeAppDelegate.o
+t2
+s0
+
+N/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/main.o
+t1281799130
+s6292
+
+N/Users/Frahaan/Desktop/iStrobe 2/iStrobe_Prefix.pch
+c000000004C3BD60A0000000000000140
+t1278989834
+s320
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Frahaan/Desktop/iStrobe 2/main.m
+c000000004C639E9000000000000002F7
+t1281597072
+s759
+i<UIKit/UIKit.h>
+
+N/var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-fnjfhkglisxkusdtxxpwkbjrgudi/iStrobe_Prefix.pch.gch
+t1281799130
+s15232016
+
+NiStrobe-Info.plist
+c000000004C47E46200000000000004C0
+t1279779938
+s1216
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies303491924#303491925#0(0"0(0#1#0"8607076992#0"0#
+
+CCompileC build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/FlashController.o "/Users/Frahaan/Desktop/iStrobe 2/FlashController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s303491931.215017
+e303491931.418076
+r0
+xCompileC
+xbuild/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/FlashController.o
+x/Users/Frahaan/Desktop/iStrobe 2/FlashController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Frahaan/Desktop/iStrobe 2/FlashController.m:18:
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:22: error: expected specifier-qualifier-list before 'AVCaptureSession'
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:23: error: expected specifier-qualifier-list before 'AVCaptureDevice'
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:26: error: expected specifier-qualifier-list before 'AVCaptureSession'
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:26: error: no declaration of property 'captureSession' found in the interface
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m: In function '-[FlashController setupStrobe]':
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:40: error: 'captureSession' undeclared (first use in this function)
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:40: error: (Each undeclared identifier is reported only once
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:40: error: for each function it appears in.)
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:40: error: 'AVCaptureSession' undeclared (first use in this function)
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:44: error: 'captureDevice' undeclared (first use in this function)
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:44: error: 'AVCaptureDevice' undeclared (first use in this function)
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:47: error: 'AVCaptureDeviceInput' undeclared (first use in this function)
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:47: error: 'deviceInput' undeclared (first use in this function)
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:53: error: 'AVCaptureVideoDataOutput' undeclared (first use in this function)
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:53: error: 'dataOut' undeclared (first use in this function)
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m: In function '-[FlashController toggleStrobe:]':
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:64: error: 'captureDevice' undeclared (first use in this function)
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m: In function '-[FlashController dealloc]':
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:73: error: 'captureSession' undeclared (first use in this function)
+lSLF07#2@58"Compile /Users/Frahaan/Desktop/iStrobe 2/FlashController.m303491931#303491931#0(2268"In file included from /Users/Frahaan/Desktop/iStrobe 2/FlashController.m:18:/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:22: error: expected specifier-qualifier-list before 'AVCaptureSession'/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:23: error: expected specifier-qualifier-list before 'AVCaptureDevice'/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:26: error: expected specifier-qualifier-list before 'AVCaptureSession'/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:26: error: no declaration of property 'captureSession' found in the interface/Users/Frahaan/Desktop/iStrobe 2/FlashController.m: In function '-[FlashController setupStrobe]':/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:40: error: 'captureSession' undeclared (first use in this function)/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:40: error: (Each undeclared identifier is reported only once/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:40: error: for each function it appears in.)/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:40: error: 'AVCaptureSession' undeclared (first use in this function)/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:44: error: 'captureDevice' undeclared (first use in this function)/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:44: error: 'AVCaptureDevice' undeclared (first use in this function)/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:47: error: 'AVCaptureDeviceInput' undeclared (first use in this function)/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:47: error: 'deviceInput' undeclared (first use in this function)/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:53: error: 'AVCaptureVideoDataOutput' undeclared (first use in this function)/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:53: error: 'dataOut' undeclared (first use in this function)/Users/Frahaan/Desktop/iStrobe 2/FlashController.m: In function '-[FlashController toggleStrobe:]':/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:64: error: 'captureDevice' undeclared (first use in this function)/Users/Frahaan/Desktop/iStrobe 2/FlashController.m: In function '-[FlashController dealloc]':/Users/Frahaan/Desktop/iStrobe 2/FlashController.m:73: error: 'captureSession' undeclared (first use in this function)14(4@59"Expected specifier-qualifier-list before 'AVCaptureSession'303491931#77#122#2(7@72"In file included from /Users/Frahaan/Desktop/iStrobe 2/FlashController.m303491931#18446744073709551615#0#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#18#0#18#0#0"0(13@113"Expected specifier-qualifier-list before 'AVCaptureSession' in /Users/Frahaan/Desktop/iStrobe 2/FlashController.h303491931#18446744073709551615#0#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#22#0#22#0#0"0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#22#0#22#0#19"expected * before *0(4@58"Expected specifier-qualifier-list before 'AVCaptureDevice'303491931#199#121#2(7@72"In file included from /Users/Frahaan/Desktop/iStrobe 2/FlashController.m303491931#18446744073709551615#0#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#18#0#18#0#0"0(13@112"Expected specifier-qualifier-list before 'AVCaptureDevice' in /Users/Frahaan/Desktop/iStrobe 2/FlashController.h303491931#18446744073709551615#0#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#23#0#23#0#0"0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#23#0#23#0#19"expected * before *0(4@59"Expected specifier-qualifier-list before 'AVCaptureSession'303491931#320#122#2(7@72"In file included from /Users/Frahaan/Desktop/iStrobe 2/FlashController.m303491931#18446744073709551615#0#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#18#0#18#0#0"0(13@113"Expected specifier-qualifier-list before 'AVCaptureSession' in /Users/Frahaan/Desktop/iStrobe 2/FlashController.h303491931#18446744073709551615#0#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#26#0#26#0#0"0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#26#0#26#0#19"expected * before *0(4@66"No declaration of property 'captureSession' found in the interface303491931#442#129#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#26#0#26#0#0"0(4@56"'captureSession' undeclared (first use in this function)303491931#669#119#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#40#0#40#0#43"'*' undeclared (first use in this function)0(4@58"'AVCaptureSession' undeclared (first use in this function)303491931#996#121#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#40#0#40#0#43"'*' undeclared (first use in this function)0(4@55"'captureDevice' undeclared (first use in this function)303491931#1117#118#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#44#0#44#0#43"'*' undeclared (first use in this function)0(4@57"'AVCaptureDevice' undeclared (first use in this function)303491931#1235#120#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#44#0#44#0#43"'*' undeclared (first use in this function)0(4@62"'AVCaptureDeviceInput' undeclared (first use in this function)303491931#1355#125#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#47#0#47#0#43"'*' undeclared (first use in this function)0(4@53"'deviceInput' undeclared (first use in this function)303491931#1480#116#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#47#0#47#0#43"'*' undeclared (first use in this function)0(4@66"'AVCaptureVideoDataOutput' undeclared (first use in this function)303491931#1596#129#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#53#0#53#0#43"'*' undeclared (first use in this function)0(4@49"'dataOut' undeclared (first use in this function)303491931#1725#112#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#53#0#53#0#43"'*' undeclared (first use in this function)0(4@55"'captureDevice' undeclared (first use in this function)303491931#1937#118#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#64#0#64#0#43"'*' undeclared (first use in this function)0(4@56"'captureSession' undeclared (first use in this function)303491931#2149#119#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m303291826#73#0#73#0#43"'*' undeclared (first use in this function)0(0#0#50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.m8600738240#1879"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-generated-files.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-own-target-headers.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-all-target-headers.hmap" -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-project-headers.hmap" "-F/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator" "-I/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/include" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources/i386" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources" -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-fnjfhkglisxkusdtxxpwkbjrgudi/iStrobe_Prefix.pch -c "/Users/Frahaan/Desktop/iStrobe 2/FlashController.m" -o "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/FlashController.o"1#
+
+CCompileC build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/FlipsideViewController.o "/Users/Frahaan/Desktop/iStrobe 2/Classes/FlipsideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s303491931.198332
+e303491931.299008
+r1
+xCompileC
+xbuild/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/Frahaan/Desktop/iStrobe 2/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/Frahaan/Desktop/iStrobe 2/Classes/FlipsideViewController.m303491931#303491931#0(0"0(0#0#65"/Users/Frahaan/Desktop/iStrobe 2/Classes/FlipsideViewController.m8601345280#1901"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-generated-files.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-own-target-headers.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-all-target-headers.hmap" -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-project-headers.hmap" "-F/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator" "-I/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/include" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources/i386" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources" -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-fnjfhkglisxkusdtxxpwkbjrgudi/iStrobe_Prefix.pch -c "/Users/Frahaan/Desktop/iStrobe 2/Classes/FlipsideViewController.m" -o "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/FlipsideViewController.o"0#
+
+CCompileC build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/MainViewController.o "/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s303491930.995272
+e303491931.214906
+r0
+xCompileC
+xbuild/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/MainViewController.o
+x/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h:19,
+o                 from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m:18:
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:22: error: expected specifier-qualifier-list before 'AVCaptureSession'
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:23: error: expected specifier-qualifier-list before 'AVCaptureDevice'
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:26: error: expected specifier-qualifier-list before 'AVCaptureSession'
+lSLF07#2@69"Compile /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m303491930#303491931#0(541"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h:19,                 from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m:18:/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:22: error: expected specifier-qualifier-list before 'AVCaptureSession'/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:23: error: expected specifier-qualifier-list before 'AVCaptureDevice'/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:26: error: expected specifier-qualifier-list before 'AVCaptureSession'3(4@59"Expected specifier-qualifier-list before 'AVCaptureSession'303491931#176#122#3(7@83"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m303491931#18446744073709551615#0#0(6@61"/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m303289860#18#0#18#0#0"0(7@83"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h303491931#18446744073709551615#0#0(6@61"/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h303289857#19#0#19#0#0"0(13@113"Expected specifier-qualifier-list before 'AVCaptureSession' in /Users/Frahaan/Desktop/iStrobe 2/FlashController.h303491931#18446744073709551615#0#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#22#0#22#0#0"0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#22#0#22#0#19"expected * before *0(4@58"Expected specifier-qualifier-list before 'AVCaptureDevice'303491931#298#121#3(7@83"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m303491931#18446744073709551615#0#0(6@61"/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m303289860#18#0#18#0#0"0(7@83"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h303491931#18446744073709551615#0#0(6@61"/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h303289857#19#0#19#0#0"0(13@112"Expected specifier-qualifier-list before 'AVCaptureDevice' in /Users/Frahaan/Desktop/iStrobe 2/FlashController.h303491931#18446744073709551615#0#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#23#0#23#0#0"0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#23#0#23#0#19"expected * before *0(4@59"Expected specifier-qualifier-list before 'AVCaptureSession'303491931#419#122#3(7@83"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m303491931#18446744073709551615#0#0(6@61"/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m303289860#18#0#18#0#0"0(7@83"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h303491931#18446744073709551615#0#0(6@61"/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h303289857#19#0#19#0#0"0(13@113"Expected specifier-qualifier-list before 'AVCaptureSession' in /Users/Frahaan/Desktop/iStrobe 2/FlashController.h303491931#18446744073709551615#0#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#26#0#26#0#0"0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#26#0#26#0#19"expected * before *0(0#0#61"/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m8605774784#1893"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-generated-files.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-own-target-headers.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-all-target-headers.hmap" -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-project-headers.hmap" "-F/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator" "-I/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/include" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources/i386" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources" -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-fnjfhkglisxkusdtxxpwkbjrgudi/iStrobe_Prefix.pch -c "/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.m" -o "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/MainViewController.o"1#
+
+CCompileC build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/MorseCode.o "/Users/Frahaan/Desktop/iStrobe 2/MorseCode.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s303491931.299126
+e303491931.419073
+r1
+xCompileC
+xbuild/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/MorseCode.o
+x/Users/Frahaan/Desktop/iStrobe 2/MorseCode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/Frahaan/Desktop/iStrobe 2/MorseCode.m303491931#303491931#0(0"0(0#0#44"/Users/Frahaan/Desktop/iStrobe 2/MorseCode.m8590330464#1867"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-generated-files.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-own-target-headers.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-all-target-headers.hmap" -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-project-headers.hmap" "-F/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator" "-I/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/include" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources/i386" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources" -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-fnjfhkglisxkusdtxxpwkbjrgudi/iStrobe_Prefix.pch -c "/Users/Frahaan/Desktop/iStrobe 2/MorseCode.m" -o "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/MorseCode.o"0#
+
+CCompileC build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/iStrobeAppDelegate.o "/Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s303491930.704227
+e303491931.198221
+r0
+xCompileC
+xbuild/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/iStrobeAppDelegate.o
+x/Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h:19,
+o                 from /Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m:19:
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:22: error: expected specifier-qualifier-list before 'AVCaptureSession'
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:23: error: expected specifier-qualifier-list before 'AVCaptureDevice'
+o/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:26: error: expected specifier-qualifier-list before 'AVCaptureSession'
+lSLF07#2@69"Compile /Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m303491930#303491931#0(541"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h:19,                 from /Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m:19:/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:22: error: expected specifier-qualifier-list before 'AVCaptureSession'/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:23: error: expected specifier-qualifier-list before 'AVCaptureDevice'/Users/Frahaan/Desktop/iStrobe 2/FlashController.h:26: error: expected specifier-qualifier-list before 'AVCaptureSession'3(4@59"Expected specifier-qualifier-list before 'AVCaptureSession'303491931#176#122#3(7@83"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m303491931#18446744073709551615#0#0(6@61"/Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m303289870#19#0#19#0#0"0(7@83"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h303491931#18446744073709551615#0#0(6@61"/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h303289857#19#0#19#0#0"0(13@113"Expected specifier-qualifier-list before 'AVCaptureSession' in /Users/Frahaan/Desktop/iStrobe 2/FlashController.h303491931#18446744073709551615#0#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#22#0#22#0#0"0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#22#0#22#0#19"expected * before *0(4@58"Expected specifier-qualifier-list before 'AVCaptureDevice'303491931#298#121#3(7@83"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m303491931#18446744073709551615#0#0(6@61"/Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m303289870#19#0#19#0#0"0(7@83"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h303491931#18446744073709551615#0#0(6@61"/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h303289857#19#0#19#0#0"0(13@112"Expected specifier-qualifier-list before 'AVCaptureDevice' in /Users/Frahaan/Desktop/iStrobe 2/FlashController.h303491931#18446744073709551615#0#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#23#0#23#0#0"0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#23#0#23#0#19"expected * before *0(4@59"Expected specifier-qualifier-list before 'AVCaptureSession'303491931#419#122#3(7@83"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m303491931#18446744073709551615#0#0(6@61"/Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m303289870#19#0#19#0#0"0(7@83"In file included from /Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h303491931#18446744073709551615#0#0(6@61"/Users/Frahaan/Desktop/iStrobe 2/Classes/MainViewController.h303289857#19#0#19#0#0"0(13@113"Expected specifier-qualifier-list before 'AVCaptureSession' in /Users/Frahaan/Desktop/iStrobe 2/FlashController.h303491931#18446744073709551615#0#0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#26#0#26#0#0"0(6@50"/Users/Frahaan/Desktop/iStrobe 2/FlashController.h303289851#26#0#26#0#19"expected * before *0(0#0#61"/Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m8603888992#1893"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-generated-files.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-own-target-headers.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-all-target-headers.hmap" -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-project-headers.hmap" "-F/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator" "-I/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/include" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources/i386" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources" -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-fnjfhkglisxkusdtxxpwkbjrgudi/iStrobe_Prefix.pch -c "/Users/Frahaan/Desktop/iStrobe 2/Classes/iStrobeAppDelegate.m" -o "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/iStrobeAppDelegate.o"1#
+
+CCompileC build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/main.o "/Users/Frahaan/Desktop/iStrobe 2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s303491930.703041
+e303491930.995159
+r1
+xCompileC
+xbuild/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/main.o
+x/Users/Frahaan/Desktop/iStrobe 2/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/Frahaan/Desktop/iStrobe 2/main.m303491930#303491930#0(0"0(0#0#39"/Users/Frahaan/Desktop/iStrobe 2/main.m8604285824#1857"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-generated-files.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-own-target-headers.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-all-target-headers.hmap" -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-project-headers.hmap" "-F/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator" "-I/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/include" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources/i386" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources" -include /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-fnjfhkglisxkusdtxxpwkbjrgudi/iStrobe_Prefix.pch -c "/Users/Frahaan/Desktop/iStrobe 2/main.m" -o "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/Frahaan/Desktop/iStrobe 2/FlipsideView.xib"
+s303491925.095312
+e303491927.679171
+r1
+xCompileXIB
+x/Users/Frahaan/Desktop/iStrobe 2/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib303491925#303491927#0(0"0(0#0#49"/Users/Frahaan/Desktop/iStrobe 2/FlipsideView.xib8602713792#562"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/FlipsideView.nib" "/Users/Frahaan/Desktop/iStrobe 2/FlipsideView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/Frahaan/Desktop/iStrobe 2/MainView.xib"
+s303491925.144957
+e303491927.594260
+r1
+xCompileXIB
+x/Users/Frahaan/Desktop/iStrobe 2/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib303491925#303491927#0(0"0(0#0#45"/Users/Frahaan/Desktop/iStrobe 2/MainView.xib8601010976#554"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/MainView.nib" "/Users/Frahaan/Desktop/iStrobe 2/MainView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/Frahaan/Desktop/iStrobe 2/MainWindow.xib"
+s303491927.594441
+e303491928.199974
+r1
+xCompileXIB
+x/Users/Frahaan/Desktop/iStrobe 2/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib303491927#303491928#0(0"0(0#0#47"/Users/Frahaan/Desktop/iStrobe 2/MainWindow.xib8603516352#558"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/MainWindow.nib" "/Users/Frahaan/Desktop/iStrobe 2/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/iStrobe.app/Icon.png Resources/Icon.png
+s303491927.680815
+e303491927.772721
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iStrobe.app/Icon.png
+xResources/Icon.png
+lSLF07#2@23"Copy Resources/Icon.png303491927#303491927#0(0"0(0#0#51"/Users/Frahaan/Desktop/iStrobe 2/Resources/Icon.png8607699392#450"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Frahaan/Desktop/iStrobe 2/Resources/Icon.png" "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app"0#
+
+CCpResource build/Debug-iphonesimulator/iStrobe.app/Icon@2x.png Resources/Icon@2x.png
+s303491927.679293
+e303491927.756574
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iStrobe.app/Icon@2x.png
+xResources/Icon@2x.png
+lSLF07#2@26"Copy Resources/Icon@2x.png303491927#303491927#0(0"0(0#0#54"/Users/Frahaan/Desktop/iStrobe 2/Resources/Icon@2x.png8600957472#453"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Frahaan/Desktop/iStrobe 2/Resources/Icon@2x.png" "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app"0#
+
+CCpResource build/Debug-iphonesimulator/iStrobe.app/aboutbackground.png Resources/aboutbackground.png
+s303491927.680120
+e303491927.796470
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iStrobe.app/aboutbackground.png
+xResources/aboutbackground.png
+lSLF07#2@34"Copy Resources/aboutbackground.png303491927#303491927#0(0"0(0#0#62"/Users/Frahaan/Desktop/iStrobe 2/Resources/aboutbackground.png8600215648#461"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Frahaan/Desktop/iStrobe 2/Resources/aboutbackground.png" "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app"0#
+
+CCpResource build/Debug-iphonesimulator/iStrobe.app/powerbuttonoff.png Resources/powerbuttonoff.png
+s303491927.681510
+e303491927.752897
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iStrobe.app/powerbuttonoff.png
+xResources/powerbuttonoff.png
+lSLF07#2@33"Copy Resources/powerbuttonoff.png303491927#303491927#0(0"0(0#0#61"/Users/Frahaan/Desktop/iStrobe 2/Resources/powerbuttonoff.png8606905120#460"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Frahaan/Desktop/iStrobe 2/Resources/powerbuttonoff.png" "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app"0#
+
+CCpResource build/Debug-iphonesimulator/iStrobe.app/powerbuttonon.png Resources/powerbuttonon.png
+s303491927.682259
+e303491927.748197
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iStrobe.app/powerbuttonon.png
+xResources/powerbuttonon.png
+lSLF07#2@32"Copy Resources/powerbuttonon.png303491927#303491927#0(0"0(0#0#60"/Users/Frahaan/Desktop/iStrobe 2/Resources/powerbuttonon.png8606469472#459"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Frahaan/Desktop/iStrobe 2/Resources/powerbuttonon.png" "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app"0#
+
+CCpResource build/Debug-iphonesimulator/iStrobe.app/slider-bg.png Resources/slider-bg.png
+s303491927.683001
+e303491927.765863
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iStrobe.app/slider-bg.png
+xResources/slider-bg.png
+lSLF07#2@28"Copy Resources/slider-bg.png303491927#303491927#0(0"0(0#0#56"/Users/Frahaan/Desktop/iStrobe 2/Resources/slider-bg.png8605968704#455"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Frahaan/Desktop/iStrobe 2/Resources/slider-bg.png" "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app"0#
+
+CCpResource build/Debug-iphonesimulator/iStrobe.app/slider-knob.png Resources/slider-knob.png
+s303491927.683702
+e303491927.754363
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iStrobe.app/slider-knob.png
+xResources/slider-knob.png
+lSLF07#2@30"Copy Resources/slider-knob.png303491927#303491927#0(0"0(0#0#58"/Users/Frahaan/Desktop/iStrobe 2/Resources/slider-knob.png8605840160#457"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Frahaan/Desktop/iStrobe 2/Resources/slider-knob.png" "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app"0#
+
+CGenerateDSYMFile "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app.dSYM" "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/iStrobe"
+r0
+
+CLd "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/iStrobe" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/Info.plist" iStrobe-Info.plist
+s303491925.047250
+e303491925.095195
+r1
+xProcessInfoPlistFile
+x/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/Info.plist
+xiStrobe-Info.plist
+lSLF07#2@26"Process iStrobe-Info.plist303491925#303491925#0(0"0(0#0#51"/Users/Frahaan/Desktop/iStrobe 2/iStrobe-Info.plist8602593440#467"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iStrobe-Info.plist -genpkginfo "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app/Info.plist"0#
+
+CProcessPCH /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-fnjfhkglisxkusdtxxpwkbjrgudi/iStrobe_Prefix.pch.gch iStrobe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s303491928.200107
+e303491930.702809
+r1
+xProcessPCH
+x/var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-fnjfhkglisxkusdtxxpwkbjrgudi/iStrobe_Prefix.pch.gch
+xiStrobe_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile iStrobe_Prefix.pch303491928#303491930#0(0"0(0#0#51"/Users/Frahaan/Desktop/iStrobe 2/iStrobe_Prefix.pch8606302944#1753"    cd "/Users/Frahaan/Desktop/iStrobe 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-generated-files.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-own-target-headers.hmap" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-all-target-headers.hmap" -iquote "/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/iStrobe-project-headers.hmap" "-F/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator" "-I/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/include" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources/i386" "-I/Users/Frahaan/Desktop/iStrobe 2/build/iStrobe.build/Debug-iphonesimulator/iStrobe.build/DerivedSources" -c "/Users/Frahaan/Desktop/iStrobe 2/iStrobe_Prefix.pch" -o /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-fnjfhkglisxkusdtxxpwkbjrgudi/iStrobe_Prefix.pch.gch0#
+
+CTouch "/Users/Frahaan/Desktop/iStrobe 2/build/Debug-iphonesimulator/iStrobe.app"
+r0
+

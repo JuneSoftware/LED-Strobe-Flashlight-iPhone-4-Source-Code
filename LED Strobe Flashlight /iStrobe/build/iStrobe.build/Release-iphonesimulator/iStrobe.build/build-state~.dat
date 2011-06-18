@@ -1,0 +1,360 @@
+TiStrobe
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004CEF90B60000000000000110
+t1290768566
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C5A5EAD00000000000D2090
+t1280990893
+s860304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C5A5EA10000000000000703
+t1280990881
+s1795
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004C5A4D1600000000001E06E0
+t1280986390
+s1967840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004C6C305C0000000000000071
+t1282158684
+s113
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004C6C30600000000000057F80
+t1282158688
+s360320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
+c000000004C57A0390000000000001A5C
+t1280811065
+s6748
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/Classes/FlipsideViewController.h
+c000000004C950416000000000000024C
+t1284834326
+s588
+i<UIKit/UIKit.h>
+i<iAd/iAd.h>
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/Classes/FlipsideViewController.m
+c000000004C95039D000000000000089E
+t1284834205
+s2206
+i"FlipsideViewController.h"
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/Classes/MainViewController.h
+c000000004C9500CC0000000000000546
+t1284833484
+s1350
+i"FlipsideViewController.h"
+i"FlashController.h"
+i<iAd/iAd.h>
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/Classes/MainViewController.m
+c000000004C95019E00000000000012E5
+t1284833694
+s4837
+i"MainViewController.h"
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/Classes/iStrobeAppDelegate.h
+c000000004C6AD3EC0000000000000173
+t1282069484
+s371
+i<UIKit/UIKit.h>
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/Classes/iStrobeAppDelegate.m
+c000000004C6AD3EC00000000000011BF
+t1282069484
+s4543
+i"iStrobeAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/FlashController.h
+c000000004C6AD3EC0000000000000111
+t1282069484
+s273
+i<AVFoundation/AVFoundation.h>
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/FlashController.m
+c000000004C6AD3EC0000000000000521
+t1282069484
+s1313
+i"FlashController.h"
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/FlipsideView.xib
+c000000004C95001E000000000001CAA2
+t1284833310
+s117410
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/Icon.png
+c000000004C6A9CFD0000000000001E87
+t1282055421
+s7815
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/MainView.xib
+c000000004C950227000000000000877F
+t1284833831
+s34687
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/MainWindow.xib
+c000000004C95003300000000000061B9
+t1284833331
+s25017
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/MorseCode.h
+c000000004C6AD3EC00000000000000A1
+t1282069484
+s161
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/MorseCode.m
+c000000004C6AD3EC0000000000000471
+t1282069484
+s1137
+i"MorseCode.h"
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/Resources/slider-bg.png
+c000000004BBD00100000000000000C56
+t1270677520
+s3158
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/Resources/slider-knob.png
+c000000004BBCFEFC00000000000003DB
+t1270677244
+s987
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/ScreenMain.h
+c000000004C6AC36C000000000000040F
+t1282065260
+s1039
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/ScreenMain.m
+c000000004C6AC4210000000000000A24
+t1282065441
+s2596
+i"ScreenMain.h"
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app.dSYM
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/FlipsideView.nib
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/Icon.png
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/Info.plist
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/MainView.nib
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/MainWindow.nib
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/PkgInfo
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/iStrobe
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/offbig.png
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/onbig.png
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/slider-bg.png
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/slider-knob.png
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/switch-5.wav
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/FlashController.o
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/FlipsideViewController.o
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/MorseCode.o
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/ScreenMain.o
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/iStrobe.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/iStrobeAppDelegate.o
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/iStrobe_Prefix.pch
+c000000004C3BD60A0000000000000140
+t1278989834
+s320
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/main.m
+c000000004C6AD3EC00000000000000E7
+t1282069484
+s231
+i<UIKit/UIKit.h>
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/offbig.png
+c000000004C870ADA0000000000008CD1
+t1283918554
+s36049
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/onbig.png
+c000000004C870AF3000000000000AD26
+t1283918579
+s44326
+
+N/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/switch-5.wav
+c000000004C6ADD97000000000001C048
+t1282071959
+s114760
+
+N/var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-cfxbbafujvnzlpbjloqvatixxmrx/iStrobe_Prefix.pch.gch
+t2
+s0
+
+NiStrobe-Info.plist
+c000000004CA0E48800000000000005A3
+t1285612680
+s1443
+
+CCompileC build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/FlashController.o "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/FlashController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/FlipsideViewController.o "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/Classes/FlipsideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/MainViewController.o "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/Classes/MainViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/MorseCode.o "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/MorseCode.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/ScreenMain.o "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/ScreenMain.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/iStrobeAppDelegate.o "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/Classes/iStrobeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iStrobe.build/Release-iphonesimulator/iStrobe.build/Objects-normal/i386/main.o "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/FlipsideView.xib"
+r0
+
+CCompileXIB "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/MainView.xib"
+r0
+
+CCompileXIB "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/MainWindow.xib"
+r0
+
+CCpResource build/Release-iphonesimulator/iStrobe.app/Icon.png Icon.png
+r0
+
+CCpResource build/Release-iphonesimulator/iStrobe.app/offbig.png offbig.png
+r0
+
+CCpResource build/Release-iphonesimulator/iStrobe.app/onbig.png onbig.png
+r0
+
+CCpResource build/Release-iphonesimulator/iStrobe.app/slider-bg.png Resources/slider-bg.png
+r0
+
+CCpResource build/Release-iphonesimulator/iStrobe.app/slider-knob.png Resources/slider-knob.png
+r0
+
+CCpResource build/Release-iphonesimulator/iStrobe.app/switch-5.wav switch-5.wav
+r0
+
+CGenerateDSYMFile "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app.dSYM" "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/iStrobe"
+r0
+
+CLd "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/iStrobe" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app/Info.plist" iStrobe-Info.plist
+r0
+
+CProcessPCH /var/folders/Gp/GpJBSCzYEnmUCz0ukOUbKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iStrobe_Prefix-cfxbbafujvnzlpbjloqvatixxmrx/iStrobe_Prefix.pch.gch iStrobe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/Frahaan/Desktop/iPhone Dev/LED Flashlight 1.31/iStrobe/build/Release-iphonesimulator/iStrobe.app"
+r0
+
